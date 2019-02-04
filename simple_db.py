@@ -33,8 +33,8 @@ class simple_db:
             sys.exit()
 
     def db_write(self,key,value):
-        key = str(key)
-        value = str(value)+"\n"
+        key = str(key).replace(":"," ")
+        value = str(value).replace(":"," ")+"\n"
 
         str_ = key+":"+value
         str_len = len(str_.split(":")[0])
