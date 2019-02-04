@@ -43,9 +43,9 @@ cranberry 4909
 
 If you don'y python installed you can use docker.
 
-1. Fork the repo to your computer. 
+1. Clone the repo to your computer. 
 
-2. create a file called database.txt in the repo.
+2. create a file called database.txt in the repo. This is important!
 
 3. Run the following docker command : 
 
@@ -53,3 +53,10 @@ If you don'y python installed you can use docker.
 docker run -it --rm -v $(pwd):/src -w /src helgecph/pythonruby sh -c "python simple_db_writer.py;python simple_db_reader.py"
 ```
 
+4. This will produce the following output :
+
+```    
+annas 5
+banana 8
+cranberry 4909
+```
