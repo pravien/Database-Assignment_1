@@ -15,9 +15,9 @@ The third file is simple_db_reader.py. This file contains an example that shows 
 ### If you have python installed:
 
 
-1. Fork the repo to your computer. 
+1. Clone the repo to your computer. 
 
-2. create a file called database.txt in the repo.
+2. create a file called database.txt in the repo. This is a must!!!
 
 3. Run file simple_db_writer.py first by using the command : 
 
